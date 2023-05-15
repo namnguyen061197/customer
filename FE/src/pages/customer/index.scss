@@ -1,0 +1,52 @@
+.customer {
+    a {
+        text-decoration: none!important;
+    }
+    .tab {
+        color: grey;
+        cursor: pointer;
+    }
+    .tab.active {
+        color: #000000;
+        font-weight: 500;
+    }
+    .card_view {
+        .item {
+            cursor: pointer;
+            .content {
+                border: 2px solid rgba($color: grey, $alpha: 0.5);
+                img {
+                    width: 30%;
+                    height: 30%;
+                }
+                .view_order {
+                    color: #308fe9;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .list_view {
+        thead {
+            td {
+                font-weight: 500;
+            }
+        }
+        img {
+            width: 40px;
+            height: 35px;
+        }
+    }
+    .new_customer {
+        .err_mes {
+            font-weight: 500;
+            color: red;
+            font-size: 0.75rem;
+        }
+        .view_all {
+            color: #308fe9;
+            cursor: pointer;
+            font-weight: 500;
+        }
+    }
+}

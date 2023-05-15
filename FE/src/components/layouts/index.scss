@@ -1,0 +1,28 @@
+.layout {
+    .header {
+        background-color: #1e91f0;
+        color: #ffffff;
+        .left {
+            cursor: pointer;
+            ul {
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    padding: 5px 10px;
+                    font-weight: 500;
+                    border-radius: 5px;
+                }
+                a.active {
+                    color: #000000;
+                    background-color: #ffffff;
+                }
+            }
+        }
+        .right {
+            cursor: pointer;
+        }
+    }
+    .logout {
+        cursor: pointer;
+    }
+}
