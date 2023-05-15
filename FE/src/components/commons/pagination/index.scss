@@ -1,0 +1,13 @@
+.pagination {
+    select {
+        width: 50px;
+        height: 36px;
+        color: #308fe9;
+        border: 1px solid #308fe9;
+        outline-color: #308fe9;
+    }
+
+    .page-item {
+        cursor: pointer;
+    }
+}

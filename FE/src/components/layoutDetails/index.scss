@@ -1,0 +1,15 @@
+.layout_detail {
+    .tab {
+        color: grey;
+        cursor: pointer;
+    }
+    .tab.active {
+        color: #000000;
+        font-weight: 500;
+    }
+    .view_all {
+        cursor: pointer;
+        font-weight: 500;
+        color: #308fe9;
+    }
+}
